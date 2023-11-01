@@ -2,6 +2,9 @@ module github.com/glauth/glauth-sqlite
 
 go 1.18
 
+
+replace	github.com/glauth/glauth/v2 => "../../.."
+
 require (
 	github.com/glauth/glauth/v2 v2.1.1-0.20221018063649-e8fbd3f95839
 	github.com/mattn/go-sqlite3 v1.14.17
